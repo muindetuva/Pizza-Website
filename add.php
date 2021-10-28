@@ -56,7 +56,7 @@
                $ingredients = mysqli_real_escape_string($conn, $_POST['ingredients']);
 
                // Create query
-               $sql = "INSERT INTO pizzas(title, email, ingredients) VALUES('$title', '$email', '$Ingredients')";
+               $sql = "INSERT INTO pizzas(title, email, ingredients) VALUES('$title', '$email', '$ingredients')";
 
                // Save to db
 

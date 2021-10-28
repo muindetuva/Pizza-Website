@@ -39,6 +39,7 @@
 
                 <div class="col s6 m3">
                     <div class="card z-depth-0">
+                        <img src="img/pizza.svg" class="pizza">
                         <div class="card-content center">
                             <h6>
                                 <?php echo htmlspecialchars($pizza['title'])?>
@@ -66,11 +67,6 @@
             <?php endforeach; ?>
 
 
-            <?php if(count($pizzas) >= 3): ?>
-                <p>There are 3 or more pizzas</p>
-            <?php else: ?>
-                <p>There are less than 3 pizzas</p>
-            <?php endif; ?>
         </div>
      </div>
 

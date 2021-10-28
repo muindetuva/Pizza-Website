@@ -23,6 +23,14 @@
 
         }
         
+        .pizza {
+            width:  100px;
+            margin: 40px auto -30px;
+            position: relative;
+            display: block;
+            top: -30px;
+        }
+        
     </style>
 
 </head> 
