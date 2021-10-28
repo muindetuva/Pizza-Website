@@ -45,7 +45,7 @@
                             </h6>
                             <div>
                                 <ul>
-                                    <?php foreach(explode(',', $pizzas[0]['ingredients']) as $ing): ?>
+                                    <?php foreach(explode(',', $pizza['ingredients']) as $ing): ?>
 
                                         <li>
                                             <?php echo htmlspecialchars($ing); ?>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="card-action right-align">
-                            <a href="#" class="brand-text">more info</a>
+                            <a href="details.php?id=<?php echo $pizza['id'] ?>" class="brand-text">more info</a>
                         </div>
                     </div>
                 </div>
